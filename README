@@ -1,0 +1,34 @@
+This README file contains information on the contents of the meta-scorpion layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: https://github.com/TechNexion/meta-tn-imx-bsp.git
+  branch: zeus_5.4.70-2.3.0-next
+
+Patches
+=======
+
+Please submit  issues and pull requests through Github.
+
+Maintainer: John Weber <john.weber@technexion.com>
+
+Table of Contents
+=================
+
+  I. Adding the meta-scorpion layer to your build
+ II. Misc
+
+
+I. Adding the meta-scorpion layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer meta-scorpion'
+
+II. Misc
+========
+
+This is the reference layer used as part of our Yocto Customization 101
+web video series.
