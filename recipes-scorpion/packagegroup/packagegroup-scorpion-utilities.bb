@@ -11,4 +11,5 @@ inherit packagegroup
 RDEPENDS_${PN} = " \
     parted \
     e2fsprogs-resize2fs \
+    vim \
 "
