@@ -6,6 +6,9 @@ LICENSE = "MIT"
 
 inherit core-image
 
+# Uncomment to set root password and add "scorpion" user
+#require recipes-scorpion/images/scorpion-users.inc
+
 # Select Image Features
 IMAGE_FEATURES += " \
     ssh-server-dropbear \
